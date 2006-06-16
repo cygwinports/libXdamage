@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libX11-devel libXfixes damageproto xproto
+sdesc: "Xorg Xdamage library (development)"
+ldesc: "Xorg Xdamage library"
