@@ -1,5 +1,5 @@
 category: X11
 requires: cygwin libX11_6
 external-source: libXdamage
-sdesc: "Xorg Xdamage library (runtime)"
-ldesc: "Xorg Xdamage library"
+sdesc: "X.Org Xdamage library (runtime)"
+ldesc: "X.Org Xdamage library"

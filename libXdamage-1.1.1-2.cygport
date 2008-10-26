@@ -1,0 +1,7 @@
+inherit xorg
+
+PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
+PKG_HINTS="setup runtime devel"
+libXdamage_CONTENTS=	# empty
+libXdamage1_CONTENTS="usr/bin/cygXdamage-1.dll usr/share/doc/"
+libXdamage_devel_CONTENTS='usr/include/ usr/lib/'
