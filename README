@@ -3,22 +3,23 @@ libXdamage
 X.Org Xdamage library
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libX11_6-1.1.5-1
+  cygwin-1.7.0-43
+  libgcc1-4.3.2-2
+  libX11_6-1.2-10
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.9-1.9.6-2
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xorg-util-macros-1.1.6-1
+  xorg-util-macros-1.2.1-1
   damageproto-1.1.0-1
 
 Canonical website:
@@ -38,7 +39,6 @@ Build instructions:
 
 This will create:
   /usr/src/libXdamage-1.1.1-X-src.tar.bz2
-  /usr/src/libXdamage-1.1.1-X.tar.bz2
   /usr/src/libXdamage-devel-1.1.1-X.tar.bz2
   /usr/src/libXdamage1-1.1.1-X.tar.bz2
 
@@ -48,11 +48,10 @@ Files included in the binary packages:
 
 (libXdamage1)
   /usr/bin/cygXdamage-1.dll
-  /usr/share/doc/libXdamage-1.1.1/AUTHORS
-  /usr/share/doc/libXdamage-1.1.1/COPYING
-  /usr/share/doc/libXdamage-1.1.1/ChangeLog
-  /usr/share/doc/libXdamage-1.1.1/INSTALL
-  /usr/share/doc/libXdamage-1.1.1/README
+  /usr/share/doc/libXdamage/AUTHORS
+  /usr/share/doc/libXdamage/COPYING
+  /usr/share/doc/libXdamage/ChangeLog
+  /usr/share/doc/libXdamage/README
 
 (libXdamage-devel)
   /usr/include/X11/extensions/Xdamage.h
@@ -65,20 +64,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 1.1.1-2 -----
-Rebuilt.
-
------ version 1.1.1-1 -----
-X11R7.3 version bump.
-
------ version 1.0.4-1 -----
-X11R7.2 version bump.
-
------ version 1.0.3-1 -----
-X11R7.1 version bump.
-
------ version 1.0.2.2-1 -----
-Initial Cygwin release of modular X11R7.0.
+----- version 1.1.1-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
