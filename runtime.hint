@@ -1,5 +1,0 @@
-category: X11
-requires: libgcc1 libX11_6
-external-source: libXdamage
-sdesc: "X.Org Xdamage library (runtime)"
-ldesc: "X.Org Xdamage library"

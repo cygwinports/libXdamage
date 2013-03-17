@@ -1,0 +1,12 @@
+inherit xorg
+
+NAME="libXdamage"
+VERSION=1.1.3
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X.Org Xdamage library"
+DESCRIPTION="X.Org Xdamage library"
+
+PKG_NAMES="${PN}1 ${PN}-devel"
+libXdamage1_CONTENTS="usr/bin/cygXdamage-1.dll usr/share/doc/"
+libXdamage_devel_CONTENTS='usr/include/ usr/lib/'

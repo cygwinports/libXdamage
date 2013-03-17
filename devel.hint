@@ -1,5 +1,0 @@
-category: X11
-requires: libXdamage1 libX11-devel libXfixes-devel damageproto xproto
-external-source: libXdamage
-sdesc: "X.Org Xdamage library (development)"
-ldesc: "X.Org Xdamage library"
